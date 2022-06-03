@@ -5,18 +5,18 @@ const app = express();
 const PORT = 8000
 
 const rappers = {
-    'savage': {
+    '21 Savage': {
         'age': 29,
-        'birthName': 'Sheyaa',
+        'birthName': 'Shéyaa Bin Abraham-Joseph',
         'birthLocation': 'London, England'}, 
-    'chance': {
-        'age': 28,
-        'birthName': 'chancey',
-        'birthLocation': 'Chicago'},
+    'Chance The Rapper': {
+        'age': 29,
+        'birthName': 'Johnathan Bennett',
+        'birthLocation': 'Chicago, Illinois'},
     'unknown': {
         'age': '∞',
         'birthName': 'unknown',
-        'birthLocation': 'pokeland'}  
+        'birthLocation': 'Johto Region - Pokeland'}  
 }
 
 // It's like an EventListener, on a request to load /, we can get the request and trigger a response
