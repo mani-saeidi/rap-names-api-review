@@ -41,6 +41,6 @@ app.get('/api/:rappername', (req,res) => {
 
 // 8000 is where to listen, and the function is what to do
 // always the same pattern: where/when to listen, and a function
-app.listen(PORT, ()=>{
-    console.log(`server is now online at port: ${PORT}!`);
+app.listen(process.env.PORT || PORT, ()=>{
+    console.log(`The server is now online at port: ${PORT}!`);
 })
